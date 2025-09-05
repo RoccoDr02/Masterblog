@@ -9,6 +9,10 @@
 <body>
     <h1>Welcome to My Flask Blog!</h1>
 
+    <p style="text-align:center; margin-bottom: 20px;">
+        <a href="{{ url_for('add') }}" style="text-decoration:none; color:#FFF; background-color:#4CAF50; padding:10px 20px; border-radius:5px;">Neuen Beitrag hinzufügen</a>
+    </p>
+
     {% if posts|length == 0 %}
         <p>No blog posts yet.</p>
     {% endif %}
