@@ -1,14 +1,16 @@
 [
     {
-        "id": 1,
-        "author": "John Doe",
-        "title": "First Post",
-        "content": "This is my first post."
-    },
-    {
-        "id": 2,
+        "id": "c3d9e1f2-7bcd-4a1b-9e2f-abcdef123456",
         "author": "Jane Doe",
         "title": "Second Post",
+        "date": "2025-09-05",
         "content": "This is another post."
+    },
+    {
+        "id": "b1c5f7e2-3aef-4e9b-8f2a-1234567890ab",
+        "title": "First Post",
+        "author": "John Doe",
+        "date": "2025-08-31",
+        "content": "This is my first post."
     }
 ]

@@ -28,8 +28,11 @@
                     Löschen
                 </button>
             </form>
+            <a href="{{ url_for('update', post_id=post.id) }}"
+                style="margin-left:10px; background-color:#2196F3; color:#fff; padding:5px 10px; border-radius:4px; text-decoration:none;">
+                Bearbeiten
+            </a>
         </div>
     {% endfor %}
-
 </body>
 </html>
